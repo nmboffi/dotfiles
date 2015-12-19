@@ -57,6 +57,7 @@ Plugin 'luochen1990/rainbow'
 Plugin 'lervag/vim-latex'
 Plugin 'Raimondi/delimitMate'
 Plugin 'tpope/vim-surround'
+Plugin 'bbchung/clighter'
 Plugin 'sjl/vitality.vim'
 Plugin 'scrooloose/nerdcommenter'
 
@@ -204,3 +205,6 @@ let g:neocomplcache_force_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 let g:tex_flavor='pdflatex'
 let g:Tex_CompileRule_dvi = 'latex -interaction=nonstopmode $*'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
+
+" Turn on clighter
+let g:clighter_autostart = 1
