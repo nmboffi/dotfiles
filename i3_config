@@ -38,7 +38,8 @@ client.urgent $COLOR_PINK $COLOR_PINK $COLOR_BLACK $COLOR_BLACK
 # bar
 bar 
 {
-    status_command i3blocks -c ~/.i3/i3blocks.conf
+#    status_command i3blocks -c ~/.i3/i3blocks.conf
+    status_command i3status
     strip_workspace_numbers yes
     position top
 
@@ -79,11 +80,11 @@ exec redshift
 
 # Multimedia Keys
 # increase volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pact1 set-sink-volume 0 +5%
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
 # decrease volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pact1 set-sink-volume 0 -5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
 # mute volume
-bindsym XF86AudioMute exec --no-startup-id pact1 set-sink-mute 0 toggle
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 # pause/play/next/previos
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
@@ -215,8 +216,8 @@ workspace_layout stacking
 exec --no-startup-id compton --opengl --sw-opti -f -D35 -I0.2 -O0.2
 
 # # i3-gaps
-gaps inner 10
-gaps outer 0  
+gaps inner 15
+gaps outer 5  
 for_window [class="^.*"] border pixel 5
 smart_borders yes
 
