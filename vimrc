@@ -12,10 +12,13 @@ set t_Co=256
 " Better cursor
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
-"set guicursor=n-v-c:block-Cursor
-"set guicursor+=i:ver100-iCursor
-"set guicursor+=n-v-c:blinkon0
-"set guicursor+=i:blinkwait10
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait10
+
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
 
 """ VUNDLE
 " set the runtime path to include Vundle and initialize
@@ -43,12 +46,9 @@ Plugin 'sjl/gundo.vim'                              " Access vim's undo tree
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-""" Base-16 settings
-let base16colorspace=256
-" Note - to fix matching parentheses thing, see
-" https://github.com/chriskempson/base16-vim/issues/34
-colorscheme base16-flat
-set background=dark
+" Darkest sierra theme
+let g:sierra_Midnight = 1
+colorscheme sierra
 set number
 
 """ RAINBOW SETTINGS
@@ -142,5 +142,5 @@ if !exists('g:neocomplete#sources#omni#input_patterns')
   let g:neocomplete#sources#omni#input_patterns = {}
 endif
 "let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
-"let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
-"let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
+let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
+let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'

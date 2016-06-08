@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,8 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ']'='xdg-open'
+alias 'tmux'='tmux -2'
+alias 'unreal'='/home/nick/unreal/LinuxNoEditor/Engine/Binaries/Linux/UE4-Linux-Shipping UnrealTournament'
 
 # Base16 shell stuff
-BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+#BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
+#[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 export $TERM=xterm-256color
