@@ -17,6 +17,7 @@ set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
 set guicursor+=i:blinkwait10
 
+
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
 
@@ -47,9 +48,16 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Darkest sierra theme
-let g:sierra_Midnight = 1
-colorscheme sierra
+"let g:sierra_Midnight = 1
+"colorscheme sierra
+colorscheme base16-flat
+let base16colorspace=256
 set number
+
+" Allow for transparency with i3 and compton
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+
 
 """ RAINBOW SETTINGS
 " Enable rainbow parentheses by default
