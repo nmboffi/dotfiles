@@ -84,6 +84,7 @@ bindsym $mod+Shift+f exec firefox
 # Utility functions
 exec --no-startup-id redshift 
 exec --no-startup-id xfce4-volumed
+exec --no-startup-id dropbox 
 
 # Multimedia Keys
 # increase volume
@@ -222,13 +223,12 @@ bindsym $mod+r mode "resize"
 workspace_layout stacking
 
 # Transparency
-# # exec --no-startup-id compton -f --sw-opti
 exec --no-startup-id compton --opengl --sw-opti -f -D35 -I0.2 -O0.2
 
 # # i3-gaps
 gaps inner 12
 gaps outer 5  
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 0
 smart_borders on
 smart_gaps on
 
