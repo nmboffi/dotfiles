@@ -48,7 +48,7 @@ bar {
         i3bar_command i3bar -t
         #status_command i3status
         font pango: overpass, FontAwesome 13
-		tray_output none
+		tray_output primary
         position top
     colors {
         background          $clear
@@ -84,6 +84,7 @@ bindsym $mod+Shift+f exec firefox
 # Utility functions
 exec --no-startup-id redshift 
 exec --no-startup-id xfce4-volumed
+exec --no-startup-id dropbox 
 
 # Multimedia Keys
 # increase volume
@@ -124,10 +125,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -136,7 +137,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+Shift+h split h
+bindsym $mod+Shift+g split h
 
 # split in vertical orientation
 bindsym $mod+Shift+v split v
@@ -222,13 +223,15 @@ bindsym $mod+r mode "resize"
 workspace_layout stacking
 
 # Transparency
-# # exec --no-startup-id compton -f --sw-opti
 exec --no-startup-id compton --opengl --sw-opti -f -D35 -I0.2 -O0.2
 
+# nm-applet
+exec --no-startup-id nm-applet
+
 # # i3-gaps
-gaps inner 12
-gaps outer 5  
-for_window [class="^.*"] border pixel 5
+gaps inner 10
+gaps outer 0 
+for_window [class="^.*"] border pixel 1
 smart_borders on
 smart_gaps on
 
