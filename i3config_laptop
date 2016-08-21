@@ -47,13 +47,13 @@ bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
         i3bar_command i3bar -t
         #status_command i3status
-        font pango: overpass, FontAwesome 13
-		tray_output primary
+        font pango: overpass, FontAwesome 14
+#		tray_output primary
+        workspace_buttons yes
         position top
     colors {
-        background          $clear
- 
 #                           BORDER      BACKGROUND      TEXT
+        background          $clear
         focused_workspace   $turq       $turq           $white          
         inactive_workspace  $clear      $clear          $grey
         active_workspace    $clear      $clear          $grey
@@ -97,6 +97,9 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# Handle microphone
+bindsym XF86AudioMicMute exec
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
@@ -223,10 +226,17 @@ bindsym $mod+r mode "resize"
 workspace_layout stacking
 
 # Transparency
-exec --no-startup-id compton --opengl --sw-opti -f -D35 -I0.2 -O0.2
+exec --no-startup-id compton --opengl -f -D35 -I0.2 -O0.2 -i0.9
 
 # nm-applet
 exec --no-startup-id nm-applet
+#exec --no-startup-id NetworkManager
+
+#syndaemon disable touchpad while typing
+exec --no-startup-id syndaemon -i .75
+
+# tlp
+exec --no-startup-id tlp start
 
 # # i3-gaps
 gaps inner 10
