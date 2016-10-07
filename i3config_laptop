@@ -11,7 +11,7 @@
 set $mod Mod4
 
 # Nice font from fedora
-font pango: overpass 10
+font pango: overpass 8
 
 # color variables
 #set $COLOR_BLACK #263238
@@ -79,7 +79,7 @@ floating_modifier $mod
 bindsym $mod+Return exec gnome-terminal
 
 # firefox shortcut
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+f exec chromium --force-device-scale-factor=1.5
 
 # Utility functions
 exec --no-startup-id redshift 
@@ -99,7 +99,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Handle microphone
-bindsym XF86AudioMicMute exec
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle 
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
@@ -246,4 +246,4 @@ smart_borders on
 smart_gaps on
 
 # wallpaper
-exec_always --no-startup-id feh --bg-scale /home/nick/Wallpapers/mario.jpg
+exec_always --no-startup-id feh --bg-scale /home/nick/Wallpapers/australia.jpg
