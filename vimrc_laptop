@@ -20,6 +20,7 @@ set guicursor+=i:blinkwait10
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
 
+
 """ VUNDLE
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -47,7 +48,7 @@ filetype plugin indent on    " required
 let g:clighter_autostart = 0
 
 "Colorscheme
-colorscheme base16-chalk
+colorscheme base16-monokai
 let base16colorspace=256
 set background=dark
 set number

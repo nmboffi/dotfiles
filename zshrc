@@ -56,7 +56,8 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:"
+export PATH="/home/nick/anaconda2/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -87,7 +88,16 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ']'='xdg-open'
 alias 'tmux'='tmux -2'
+alias "ls"="ls --color=auto"
+
+# Turn off the god damn sensitive ass touchpad
+synclient FingerLow=20
+synclient FingerHigh=30
 
 # Base16 shell stuff
-BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
+BASE16_SHELL="$HOME/.config/base16-shell/base16-monokai.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+source ~/.config/base16-shell/base16-monokai.dark.sh
+
+TEXLIVE=/usr/share/texmf-dist/scripts/texlive
+export PATH=/usr/share/texmf-dist/scripts/texlive/bin/x86_64-linux:/home/nick/anaconda2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
