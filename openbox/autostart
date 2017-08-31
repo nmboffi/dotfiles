@@ -1,0 +1,11 @@
+# Mouse Shit
+dropbox &
+xfce4-volumed &
+polybar laptop &
+tint2 &
+compton --opengl -f -D35 -I0.2 -O0.2 -i0.9 &
+syndaemon -i .75 &
+sudo tlp start &
+feh --bg-scale /home/nick/wallpapers/curr_wallpaper.jpg &
+nm-applet &
+NetworkManager &
