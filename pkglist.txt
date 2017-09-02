@@ -1,246 +1,1491 @@
-acpi
-adwaita-icon-theme
-alsa-utils
-arandr
-autoconf
-automake
-bash
-binutils
-bison
-bzip2
-chromium
-clang-tools-extra
-cmake
-coreutils
-cryptsetup
-cups
-device-mapper
-dhcpcd
-dialog
-diffutils
-dmenu
-e2fsprogs
-evince
-fakeroot
-feh
-file
-filesystem
-findutils
-firefox
-flashplugin
-flex
-foomatic-db-engine
-foomatic-db-gutenprint-ppds
-foomatic-db-nonfree-ppds
-foomatic-db-ppds
-freeglut
-gawk
-gcc
-gcc-libs
-gconf-editor
-gettext
-git
-glew
-glfw-x11
-glibc
-gnome-desktop
-gnome-do
-gnome-keyring
-gnome-settings-daemon
-gnome-themes-standard
-gpointing-device-settings
-grep
-grilo-plugins
-groff
-gstreamer0.10-base-plugins
-gvfs
-gzip
-htop
-i3lock
-i3status
-inetutils
-intel-ucode
-iproute2
-iputils
-iw
-jfsutils
-julia
-jupyter-notebook
-less
-libc++
-libreoffice-fresh
-libtool
-licenses
-lightdm
-lightdm-gtk-greeter
-linux
-llvm
-lm_sensors
-logrotate
-lvm2
-lxappearance
-lxrandr
-m4
-make
-man-db
-man-pages
-mathjax
-mdadm
-nano
-nemo
-net-tools
-netctl
-network-manager-applet
-networkmanager-openconnect
-networkmanager-qt
-nss-mdns
-openconnect
-openmpi
-openssh
-pacman
-patch
-pavucontrol
-pciutils
-pcmciautils
-perl
-pidgin
-pkg-config
-powertop
-procps-ng
-psmisc
-pulseaudio-equalizer
-python-matplotlib
-python-numpy
-python-scipy
-python-seaborn
-ranger
-redshift
-reiserfsprogs
-s-nail
-sed
-shadow
-stalonetray
-sudo
-sysfsutils
-system-config-printer
-systemd-sysvcompat
-tar
-texinfo
-texlive-bibtexextra
-texlive-core
-texlive-fontsextra
-texlive-formatsextra
-texlive-games
-texlive-genericextra
-texlive-htmlxml
-texlive-humanities
-texlive-latexextra
-texlive-music
-texlive-pictures
-texlive-plainextra
-texlive-pstricks
-texlive-publishers
-texlive-science
-tlp
-tracker
-trayer
-ttf-hack
-ttf-overpass
-usbutils
-util-linux
-valgrind
-vi
-vim
-vlc
-wget
-which
-wpa_supplicant
-xbindkeys
-xf86-input-evdev
-xf86-input-joystick
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-input-synaptics
-xf86-input-vmmouse
-xf86-input-void
-xf86-video-amdgpu
-xf86-video-ark
-xf86-video-ati
-xf86-video-dummy
-xf86-video-fbdev
-xf86-video-glint
-xf86-video-i128
-xf86-video-intel
-xf86-video-mach64
-xf86-video-neomagic
-xf86-video-nouveau
-xf86-video-nv
-xf86-video-openchrome
-xf86-video-r128
-xf86-video-savage
-xf86-video-siliconmotion
-xf86-video-sis
-xf86-video-tdfx
-xf86-video-trident
-xf86-video-vesa
-xf86-video-vmware
-xf86-video-voodoo
-xfce4-mixer
-xfce4-notifyd
-xfsprogs
-xorg-bdftopcf
-xorg-docs
-xorg-font-util
-xorg-fonts-100dpi
-xorg-fonts-75dpi
-xorg-fonts-encodings
-xorg-iceauth
-xorg-luit
-xorg-mkfontdir
-xorg-mkfontscale
-xorg-server
-xorg-server-common
-xorg-server-devel
-xorg-server-xdmx
-xorg-server-xephyr
-xorg-server-xnest
-xorg-server-xvfb
-xorg-server-xwayland
-xorg-sessreg
-xorg-setxkbmap
-xorg-smproxy
-xorg-x11perf
-xorg-xauth
-xorg-xbacklight
-xorg-xcmsdb
-xorg-xcursorgen
-xorg-xdpyinfo
-xorg-xdriinfo
-xorg-xev
-xorg-xgamma
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xkbcomp
-xorg-xkbevd
-xorg-xkbutils
-xorg-xkill
-xorg-xlsatoms
-xorg-xlsclients
-xorg-xmodmap
-xorg-xpr
-xorg-xprop
-xorg-xrandr
-xorg-xrdb
-xorg-xrefresh
-xorg-xset
-xorg-xsetroot
-xorg-xvinfo
-xorg-xwd
-xorg-xwininfo
-xorg-xwud
-xterm
-yelp
-zsh
-zsh-completions
+extra/a52dec 0.7.4-9
+extra/aalib 1.4rc5-12
+extra/accerciser 3.22.0-2 (gnome-extra)
+extra/accounts-qml-module 0.7-1
+core/acl 2.2.52-3
+community/acpi 1.7-1
+community/acpi_call 1.1.0-67
+extra/adwaita-icon-theme 3.24.0-1 (gnome)
+extra/aisleriot 3.22.2-2 (gnome-extra)
+extra/alsa-lib 1.1.4.1-1
+extra/alsa-plugins 1.1.4-1
+extra/alsa-utils 1.1.4-1
+extra/anjuta 3.22.0+1+g2bd433c-1 (gnome-extra)
+extra/appstream-glib 0.6.13-1
+extra/apr 1.6.2-1
+extra/apr-util 1.6.0-1
+community/arandr 0.1.9-2
+local/archey-plus 0.2.8-1
+core/archlinux-keyring 20170611-1
+community/arpack 3.5.0-1
+community/asciidoc 8.6.9-3
+extra/aspell 0.60.6.1-5
+extra/at-spi2-atk 2.24.1-1
+extra/at-spi2-core 2.24.1-1
+extra/atk 2.24.0-2
+extra/atkmm 2.24.2+1+gf30b47f-2
+extra/atomix 3.22.0-1 (gnome-extra)
+extra/attica-qt4 0.4.2-3
+extra/attica-qt5 5.36.0-1 (kf5)
+core/attr 2.4.47-2
+core/autoconf 2.69-4 (base-devel)
+community/autoconf-archive 1:2017.03.21-1
+extra/autogen 5.18.12-2
+core/automake 1.15.1-1 (base-devel)
+extra/automoc4 0.9.88-8
+extra/avahi 0.7-1
+extra/babl 0.1.24-1
+extra/baloo 5.36.0-1 (kf5)
+local/base16-git r638.3808596-1
+core/bash 4.4.012-2 (base)
+extra/bc 1.07.1-1
+extra/bind-tools 9.11.1.P3-1
+testing/binutils 2.28.0-4 (base-devel)
+core/bison 3.0.4-3 (base-devel)
+extra/blas 3.7.1-1
+local/bluejeans 2.160.66.8-1
+extra/bluez-libs 5.45-1
+extra/boost-libs 1.64.0-4
+extra/brasero 3.12.1-2 (gnome-extra)
+extra/brltty 5.5-2
+core/btrfs-progs 4.11.1-1
+extra/bubblewrap 0.1.8-1
+core/bzip2 1.0.6-6 (base)
+core/ca-certificates 20170307-1
+core/ca-certificates-cacert 20140824-4
+core/ca-certificates-mozilla 3.31-3
+core/ca-certificates-utils 20170307-1
+local/caffeine-ng 3.4.0-1
+extra/cairo 1.14.10-1
+extra/cairo-perl 1.106-3
+extra/cairomm 1.12.2-2
+extra/cantarell-fonts 1:0.0.25-3
+extra/cblas 3.7.1-1
+extra/cdparanoia 10.2-5
+extra/cdrdao 1.2.3-10
+community/cdrtools 3.02a07-2
+extra/celt 0.11.3-2
+extra/celt0.5.1 0.5.1.3-3
+extra/cheese 3.24.0-1 (gnome-extra)
+extra/chromaprint 1.4.2-1
+extra/chromium 59.0.3071.115-1
+local/chromium-widevine 1:1.4.8.977-1
+extra/cifs-utils 6.7-2
+extra/clang 4.0.1-4
+extra/clang-tools-extra 4.0.1-4
+extra/clucene 2.3.3.4-9
+extra/clutter 1.26.2-1
+extra/clutter-gst 3.0.24-1
+local/clutter-gst2 2.0.18-1
+extra/clutter-gtk 1.8.2-1
+extra/cmake 3.8.2-1
+extra/cogl 1.22.2+10+g3baa2d7a-1
+extra/colord 1.3.5-1
+extra/colord-gtk 0.1.26+5+ga9d9c91-1
+extra/compositeproto 0.4.2-3
+local/compton-git 0.1_beta2.83.g2343e4b-1
+community/confuse 3.2-1
+extra/convertlit 1.8-7
+core/coreutils 8.27-1 (base)
+core/cracklib 2.9.6-1
+core/cryptsetup 1.7.5-1 (base)
+extra/ctags 5.8-5
+extra/cups 2.2.4-2
+extra/cups-filters 1.14.1-1
+core/curl 7.54.1-2
+community/cython 0.25.2-2
+extra/damageproto 1.2.1-3
+core/db 5.3.28-3
+core/dbus 1.10.18-1
+extra/dbus-glib 0.108-1
+extra/dbus-sharp 0.8.1-1
+extra/dbus-sharp-glib 0.6.0-1
+extra/dcadec 0.2.0-1
+extra/dconf 0.26.0+1+g701d19d-1
+extra/dconf-editor 3.23.4+48+g9acdf0a-1 (gnome-extra)
+extra/desktop-file-utils 0.23-1
+extra/devhelp 3.24.0+7+gefb59e2-1 (gnome-extra)
+core/device-mapper 2.02.172-2 (base)
+core/dhcpcd 6.11.5-1 (base)
+core/dialog 1:1.3_20170509-1
+core/diffutils 3.6-1 (base)
+extra/djvulibre 3.5.27-3
+extra/dleyna-connector-dbus 0.2.0-2
+extra/dleyna-core 0.5.0-1
+extra/dleyna-renderer 0.5.0-1
+extra/dleyna-server 0.5.0-1
+community/dmenu 4.7-1
+core/dmraid 1.0.0.rc16.3-10
+extra/dmxproto 2.3.1-3
+core/dnssec-anchors 20170711-1
+extra/docbook-xml 4.5-6
+extra/docbook-xsl 1.79.2-3
+community/docbook2x 0.8.8-15
+core/dosfstools 4.1-1
+extra/dotconf 1.3-4
+extra/double-conversion 2.0.1-3
+extra/dri2proto 2.8-2
+extra/dri3proto 1.0-1
+local/dropbox 30.4.22-1
+local/dropbox-cli 2015.10.28-2
+extra/dvd+rw-tools 7.1-7
+core/e2fsprogs 1.43.4-1 (base)
+extra/ebook-tools 0.2.2-4
+local/electrum-git 20170615-1
+core/elfutils 0.169-2
+extra/enca 1.19-1
+extra/enchant 1.6.1-2
+community/espeak 1:1.48.04-1
+extra/ethtool 1:4.11-1
+extra/evince 3.24.0+12+g717df38f-1 (gnome)
+extra/evolution 3.24.4-1 (gnome-extra)
+extra/evolution-data-server 3.24.4-1
+extra/exempi 2.4.2+1+gc26d5be-1
+extra/exiv2 0.26-1
+extra/exo 0.11.4-1 (xfce4)
+core/expat 2.2.2-1
+extra/faac 1.28-5
+extra/faad2 2.7-4
+testing/fakeroot 1.21-2 (base-devel)
+extra/farstream 0.2.8-1
+extra/feh 2.19-1
+extra/ffmpeg 1:3.3.2-2
+extra/ffmpeg2.8 2.8.12-3
+extra/fftw 3.3.6-2
+core/file 5.31-1 (base base-devel)
+extra/file-roller 3.24.1-1 (gnome-extra)
+testing/filesystem 2017.03-2 (base)
+core/findutils 4.6.0-2 (base base-devel)
+extra/firefox 54.0.1-1
+extra/five-or-more 3.22.2-1 (gnome-extra)
+extra/fixesproto 5.0+9+g4292ec1-1
+extra/flac 1.3.2-1
+extra/flashplugin 26.0.0.137-1
+extra/flatpak 0.9.7-1
+core/flex 2.6.4-1 (base-devel)
+extra/fluidsynth 1.1.6-5
+extra/folks 0.11.4-1
+extra/fontconfig 2.12.4-1
+extra/fontsproto 2.1.3-2
+extra/foomatic-db-engine 4:4.0.12-3
+extra/foomatic-db-gutenprint-ppds 5.2.12-1
+extra/foomatic-db-nonfree-ppds 3:20170106-1
+extra/foomatic-db-ppds 3:20170106-1
+extra/four-in-a-row 3.22.1-1 (gnome-extra)
+extra/freeglut 3.0.0-1
+community/freerdp 1:1.2.0_20170201-3
+extra/freetype2 2.8-2
+community/frei0r-plugins 1.6.1-3
+extra/fribidi 0.19.7-1
+community/fswebcam 20140113-1
+extra/fuse-common 3.1.0-1
+extra/fuse2 2.9.7-3
+extra/gamin 0.1.10-8
+extra/garcon 0.6.1-1 (xfce4)
+community/gavl 1.4.0-2
+core/gawk 4.1.4-2 (base base-devel)
+extra/gc 7.6.0-1
+extra/gcab 0.7+16+g4bc4be1-1
+testing/gcc-fortran 7.1.1-4
+multilib-testing/gcc-libs-multilib 7.1.1-4
+multilib-testing/gcc-multilib 7.1.1-4 (multilib-devel)
+extra/gconf 3.2.6-5
+extra/gconf-editor 3.0.1-4
+extra/gconf-sharp 2.24.2-5
+extra/gcr 3.20.0+45+g4708f35-1
+extra/gd 2.2.4-2
+core/gdbm 1.13-1
+extra/gdk-pixbuf2 2.36.6-2
+extra/gdl 3.22.0-1
+extra/gedit 3.22.0+44+ge706c1259-1 (gnome-extra)
+extra/gedit-code-assistance 3.16.0+4+gd19b879-1 (gnome-extra)
+extra/gegl 0.3.14-2
+extra/gegl02 0.2.0-7
+extra/geoclue2 2.4.7-1
+extra/geocode-glib 3.23.90-1
+extra/geoip 1.6.10-1
+extra/geoip-database 20170704-1
+core/gettext 0.19.8.1-2 (base base-devel)
+extra/gfbgraph 0.2.3+10+gbc03c1f-1
+extra/ghostscript 9.21-2
+extra/giblib 1.2.4-6
+extra/giflib 5.1.4-1
+extra/gimp 2.8.22-1
+extra/git 2.13.3-2
+extra/gitg 3.24.0-2 (gnome-extra)
+extra/gjs 1.48.5-1
+extra/gkeyfile-sharp 0.1-3
+extra/glade 3.20.0+27+g2b88ce24-1
+extra/glew 2.0.0-1
+community/glfw-x11 3.2.1-1
+extra/glib-networking 2.50.0-2
+extra/glib-perl 1.324-2
+core/glib2 2.52.3-1
+core/glib2-docs 2.52.3-1
+testing/glibc 2.25-7 (base)
+extra/glibmm 2.52.0-1
+extra/glproto 1.4.17-1
+extra/glu 9.0.0-4
+extra/gmime 2.6.23+4+g91dcee38-1
+core/gmp 6.1.2-1
+extra/gnome-2048 3.22.0+7+ga460b20-1 (gnome-extra)
+extra/gnome-autoar 0.2.2-1
+extra/gnome-builder 3.24.2-2 (gnome-extra)
+extra/gnome-calendar 3.24.3-1 (gnome-extra)
+extra/gnome-characters 3.22.0+49+g0d6a0bd-1 (gnome-extra)
+extra/gnome-chess 3.24.1-1 (gnome-extra)
+extra/gnome-clocks 3.24.0+4+gd1003cd-1 (gnome-extra)
+extra/gnome-code-assistance 3.16.1-1 (gnome-extra)
+extra/gnome-color-manager 3.24.0+4+ge78025a-2 (gnome-extra)
+extra/gnome-common 3.18.0-2
+extra/gnome-desktop 1:3.24.2-1
+local/gnome-desktop2 2.32.1-3
+extra/gnome-devel-docs 3.22.1-1 (gnome-extra)
+community/gnome-do 0.95.3-5
+extra/gnome-documents 3.24.2-1 (gnome-extra)
+extra/gnome-getting-started-docs 3.24.1-1 (gnome-extra)
+extra/gnome-icon-theme 3.12.0-4
+extra/gnome-icon-theme-symbolic 3.12.0-4
+extra/gnome-keyring 1:3.20.0+57+g9db67ef6-1 (gnome)
+extra/gnome-keyring-sharp 1.0.2-5
+extra/gnome-klotski 3.22.1-1 (gnome-extra)
+extra/gnome-logs 3.24.1+1+gf949685-1 (gnome-extra)
+extra/gnome-mahjongg 3.22.0+1+g55799c1-1 (gnome-extra)
+extra/gnome-maps 3.24.3-1 (gnome-extra)
+extra/gnome-mime-data 2.18.0-7
+extra/gnome-mines 3.24.0+1+ga8c3697-1 (gnome-extra)
+extra/gnome-music 3.24.2-1 (gnome-extra)
+extra/gnome-nettool 3.8.1-3 (gnome-extra)
+extra/gnome-nibbles 3.24.0+1+g623d38e-1 (gnome-extra)
+extra/gnome-online-accounts 3.24.1-1
+extra/gnome-online-miners 3.22.0-1
+local/gnome-perl 1.045-8
+extra/gnome-photos 3.24.2-1 (gnome-extra)
+extra/gnome-robots 3.22.1+6+gf5df154-1 (gnome-extra)
+extra/gnome-settings-daemon 3.24.2-1 (gnome)
+extra/gnome-sound-recorder 3.24.0.1+8+g0b8e221-1 (gnome-extra)
+extra/gnome-sudoku 3.24.0+3+g08a1072-1 (gnome-extra)
+extra/gnome-system-log 3.9.90+156+g6e29f03-1
+extra/gnome-taquin 3.22.0-1 (gnome-extra)
+extra/gnome-tetravex 3.22.0+4+g817dbf6-1 (gnome-extra)
+extra/gnome-themes-standard 3.22.3-1 (gnome)
+extra/gnome-todo 3.24.2-1 (gnome-extra)
+extra/gnome-tweak-tool 3.24.1-1 (gnome-extra)
+local/gnome-vfs-nosmb 2.24.4-9
+local/gnome-vfs-perl 1.082-7
+extra/gnome-video-effects 0.4.3-1
+extra/gnome-weather 3.24.0-1 (gnome-extra)
+local/gnomecanvas-perl 1.002-18
+core/gnupg 2.1.21-3
+core/gnutls 3.5.14-1
+extra/gobject-introspection 1.52.1-1
+extra/gobject-introspection-runtime 1.52.1-1
+extra/gom 0.3.2+12+gc7bd13d-1
+community/goocanvas 2.0.2-1
+local/google-talkplugin 5.41.3.0-1
+extra/gperf 3.1-1
+core/gpgme 1.9.0-3
+testing/gpm 1.20.7-7
+community/gpointing-device-settings 1.5.1-5
+extra/gptfdisk 1.0.1-2
+extra/graphene 1.6.0-1
+extra/graphite 1:1.3.10-1
+extra/graphviz 2.40.1-5
+core/grep 3.1-1 (base base-devel)
+extra/grilo 0.3.3+3+g3104a34-1
+extra/grilo-plugins 0.3.4+13+gf460a00-1 (gnome)
+core/groff 1.22.3-7 (base-devel)
+extra/gsettings-desktop-schemas 3.24.0-1
+extra/gsfonts 20170501-1
+extra/gsm 1.0.16-1
+extra/gsound 1.0.2-2
+extra/gspell 1.4.1-1
+extra/gssdp 1.0.2-1
+extra/gst-libav 1.12.2-1
+local/gst-plugin-libde265 0.1.12-1
+extra/gst-plugins-bad 1.12.2-1
+extra/gst-plugins-base 1.12.2-1
+extra/gst-plugins-base-libs 1.12.2-1
+extra/gst-plugins-good 1.12.2-1
+extra/gst-plugins-ugly 1.12.2-1
+extra/gst-python 1.12.2-1
+extra/gst-python2 1.12.2-1
+extra/gstreamer 1.12.2-1
+extra/gstreamer-vaapi 1.12.1-1
+local/gstreamer0.10 0.10.36-4
+local/gstreamer0.10-base 0.10.36-3
+local/gstreamer0.10-base-plugins 0.10.36-3 (gstreamer0.10-plugins)
+local/gstreamer0.10-ffmpeg 0.10.13-9 (gstreamer0.10-plugins)
+extra/gtk-doc 1.25+33+g567353f-1
+extra/gtk-sharp-2 2.12.42-1
+extra/gtk-update-icon-cache 3.22.16-1
+extra/gtk-vnc 0.7.1-1
+extra/gtk-xfce-engine 2.10.1-1 (xfce4)
+extra/gtk2 2.24.31-1
+community/gtk2+extra 3.3.3-1
+extra/gtk2-perl 1.2498-3
+extra/gtk3 3.22.16-1
+extra/gtk3-print-backends 3.22.16-1 (gnome)
+extra/gtkglext 1.2.0-10
+community/gtkimageview 1.6.4-4
+local/gtklp 1.3.3-1
+extra/gtkmm3 3.22.1-1
+extra/gtksourceview3 3.24.3-1
+extra/gtkspell 2.0.16-3
+community/gtkspell3 3.0.9-1
+extra/gts 0.7.6-3
+extra/guile 2.2.2-1
+extra/guile2.0 2.0.14-1
+extra/gupnp 1.0.2-1
+extra/gupnp-av 0.12.10-1
+extra/gupnp-dlna 0.10.5-2
+extra/gvfs 1.32.1+3+gd852665e-1 (gnome)
+extra/gvim 8.0.0722-1
+extra/gwenview 17.04.3-2 (kde-applications kdegraphics)
+core/gzip 1.8-2 (base base-devel)
+local/h264enc 10.4.7-1
+extra/harfbuzz 1.4.6-1
+extra/harfbuzz-icu 1.4.6-1
+community/hdf5 1.10.1-1
+core/hdparm 9.52-1
+extra/hicolor-icon-theme 0.15-1
+extra/hitori 3.22.2-1 (gnome-extra)
+extra/hplip 3.17.6-2
+extra/hspell 1.3-1
+extra/htop 2.0.2-1
+extra/hunspell 1.6.1-1
+extra/hunspell-en 2017.01.22-2
+extra/hunspell-en_GB 2017.01.22-2
+extra/hunspell-en_US 2017.01.22-2
+core/hwids 20170328-1
+extra/hwloc 1.11.7-1
+extra/hyphen 2.8.8-1
+local/i3-gaps-git 4.13-2 (i3-vcs)
+local/i3blocks-gaps-git 1.4.r36.g578e878-1
+community/i3lock 2.9.1-1 (i3)
+community/i3status 2.11-2 (i3)
+extra/iagno 3.22.0-1 (gnome-extra)
+testing/iana-etc 20170512-1
+core/icu 59.1-1
+extra/idnkit 1.0-3
+extra/ijs 0.35-1
+extra/ilmbase 2.2.0-2
+extra/imagemagick 6.9.9.0-1
+extra/imlib2 1.4.10-1
+core/inetutils 1.9.4-5 (base)
+extra/inputproto 2.3.2-1
+extra/intel-tbb 2017_20170604-1
+extra/intel-ucode 20170707-1
+extra/intltool 0.51.0-2
+core/iproute2 4.12.0-2 (base)
+core/iptables 1.6.1-1
+core/iputils 20161105.1f2bb12-2 (base)
+community/ipython 5.3.0-1
+extra/iso-codes 3.75-1
+extra/itstool 2.0.2+5+g676f3f7-2
+core/iw 4.9-1
+extra/jack 0.125.0-3
+local/jade 1.2.1-12
+community/jansson 2.10-2
+extra/jasper 2.0.13-2
+extra/java-environment-common 2-2
+extra/java-openjfx 8.u121-1
+extra/java-runtime-common 2-2
+extra/jbig2dec 0.13-1
+extra/jdk8-openjdk 8.u131-1
+core/jfsutils 1.1.15-4 (base)
+extra/jre8-openjdk 8.u131-1
+extra/jre8-openjdk-headless 8.u131-1
+extra/js 24.2.0-4
+local/js17 17.0.0-4
+extra/js38 38.8.0-3
+extra/json-c 0.12.1-1
+extra/json-glib 1.2.8-1
+extra/jsoncpp 1.8.1-1
+community/julia 2:0.6.0-1
+community/jupyter 4.1.0-6
+community/jupyter-nbformat 4.3.0-1
+community/jupyter-notebook 5.0.0-1
+community/jupyter-widgetsnbextension 1:2.0.0-1
+community/jupyter_console 5.1.0-1
+extra/kaccounts-integration 17.08.0-1 (kde-applications kdenetwork)
+extra/kactivities 5.36.0-1 (kf5)
+extra/karchive 5.36.0-1 (kf5)
+extra/kauth 5.36.0-1 (kf5)
+core/kbd 2.0.4-1
+extra/kbookmarks 5.36.0-1 (kf5)
+extra/kbproto 1.0.7-1
+extra/kcmutils 5.37.0-1 (kf5)
+extra/kcodecs 5.36.0-1 (kf5)
+extra/kcompletion 5.36.0-1 (kf5)
+extra/kconfig 5.36.0-1 (kf5)
+extra/kconfigwidgets 5.36.0-1 (kf5)
+extra/kcoreaddons 5.36.0-1 (kf5)
+extra/kcrash 5.36.0-1 (kf5)
+extra/kdbusaddons 5.36.0-1 (kf5)
+extra/kdebase-runtime 17.04.3-2
+extra/kdeclarative 5.37.0-1 (kf5)
+extra/kdelibs 4.14.34-1
+core/keyutils 1.5.10-1
+extra/kfilemetadata 5.36.0-2 (kf5)
+extra/kglobalaccel 5.36.0-1 (kf5)
+extra/kguiaddons 5.36.0-1 (kf5)
+extra/ki18n 5.36.0-1 (kf5)
+extra/kiconthemes 5.36.0-1 (kf5)
+extra/kidletime 5.36.0-1 (kf5)
+extra/kinit 5.36.0-1 (kf5)
+extra/kio 5.36.0-1 (kf5)
+extra/kitemmodels 5.36.0-1 (kf5)
+extra/kitemviews 5.36.0-1 (kf5)
+extra/kjobwidgets 5.36.0-1 (kf5)
+local/klatexformula 4.0.0-3
+core/kmod 24-1
+extra/knotifications 5.36.0-1 (kf5)
+extra/kpackage 5.37.0-1 (kf5)
+extra/kparts 5.36.0-1 (kf5)
+core/krb5 1.15.1-1
+extra/kservice 5.36.0-1 (kf5)
+extra/ktextwidgets 5.36.0-1 (kf5)
+extra/kwallet 5.36.0-1 (kf5)
+extra/kwidgetsaddons 5.36.0-1 (kf5)
+extra/kwindowsystem 5.36.0-1 (kf5)
+extra/kxmlgui 5.36.0-1 (kf5)
+extra/l-smash 2.9.1-1
+extra/ladspa 1.13-6
+extra/lame 3.99.5-3
+extra/lapack 3.7.1-1
+extra/lcms 1.19-5
+extra/lcms2 2.8-2
+extra/ldb 1.1.29-1
+core/ldns 1.7.0-3
+core/less 487-1 (base)
+multilib/lib32-aalib 1.4rc5-1
+multilib/lib32-alsa-lib 1.1.4.1-1
+multilib/lib32-alsa-plugins 1.1.4-1
+multilib/lib32-atk 2.24.0+4+gbf71ccc-1
+multilib/lib32-attr 2.4.47-1
+multilib/lib32-bzip2 1.0.6-2
+multilib/lib32-cairo 1.14.10-1
+multilib/lib32-cdparanoia 10.2-2
+multilib/lib32-db 5.3.28-3
+multilib/lib32-dbus 1.10.18-1
+multilib/lib32-e2fsprogs 1.43.4-1
+multilib/lib32-expat 2.2.0-1
+multilib/lib32-flac 1.3.2-1
+multilib/lib32-fontconfig 2.12.3-1
+multilib/lib32-freetype2 2.8-2
+multilib-testing/lib32-gcc-libs 7.1.1-4
+multilib/lib32-gdk-pixbuf2 2.36.6-1
+multilib/lib32-giflib 5.1.4-1
+multilib/lib32-glib-networking 2.50.0-1
+multilib/lib32-glib2 2.52.2+9+g3245eba16-1
+multilib-testing/lib32-glibc 2.25-7
+multilib/lib32-gmp 6.1.2-1
+multilib/lib32-gnutls 3.5.13-1
+multilib/lib32-gpm 1.20.7-1
+multilib/lib32-gst-plugins-base 1.12.1-1
+multilib/lib32-gst-plugins-base-libs 1.12.1-1
+multilib/lib32-gst-plugins-good 1.12.1-1
+multilib/lib32-gstreamer 1.12.1-1
+multilib/lib32-gtk2 2.24.31-1
+multilib/lib32-harfbuzz 1.4.6-1
+multilib/lib32-icu 59.1-1
+multilib/lib32-imlib2 1.4.10-1
+multilib/lib32-jack 0.125.0-1
+multilib/lib32-json-c 0.12.1-1
+multilib/lib32-keyutils 1.5.10-1
+multilib/lib32-krb5 1.15.1-1
+multilib/lib32-libasyncns 0.8+3+g68cd5af-1
+multilib/lib32-libavc1394 0.5.4-1
+multilib/lib32-libcaca 0.99.beta19-1
+multilib/lib32-libcap 2.25-1
+multilib/lib32-libcups 2.2.4-2
+multilib/lib32-libdatrie 0.2.10-1
+multilib/lib32-libdrm 2.4.81-1
+multilib/lib32-libdv 1.0.0-4
+multilib/lib32-libelf 0.169-1
+multilib/lib32-libffi 3.2.1-1
+multilib/lib32-libgcrypt 1.7.8-1
+multilib/lib32-libglvnd 0.2.999+g4ba53457-2
+multilib/lib32-libgpg-error 1.27-1
+multilib/lib32-libgudev 231-1
+multilib/lib32-libice 1.0.9-1
+multilib/lib32-libid3tag 0.15.1b-1
+multilib/lib32-libidn 1.33-1
+multilib/lib32-libiec61883 1.2.0-1
+multilib/lib32-libjpeg-turbo 1.5.1-1
+multilib/lib32-libldap 2.4.44-2
+multilib/lib32-libogg 1.3.2-1
+multilib/lib32-libpciaccess 0.13.5-1
+multilib/lib32-libpng 1.6.29-1
+multilib/lib32-libproxy 0.4.15-1
+multilib/lib32-libpulse 10.0-1
+multilib/lib32-libraw1394 2.1.2-1
+multilib/lib32-libsamplerate 0.1.9-1
+multilib/lib32-libshout 2.4.1-3
+multilib/lib32-libsm 1.2.2-1
+multilib/lib32-libsndfile 1.0.28-1
+multilib/lib32-libsoup 2.58.1-1
+multilib/lib32-libtasn1 4.12-1
+multilib/lib32-libthai 0.1.26-1
+multilib/lib32-libtheora 1.1.1-10
+multilib/lib32-libtiff 4.0.8-1
+multilib/lib32-libtxc_dxtn 1.0.1-5
+multilib/lib32-libunwind 1.2.1-1
+multilib/lib32-libvisual 0.4.0-5
+multilib/lib32-libvorbis 1.3.5-1
+multilib/lib32-libvpx 1.6.1-1
+multilib/lib32-libx11 1.6.5-1
+multilib/lib32-libxau 1.0.8-1
+multilib/lib32-libxcb 1.12-2
+multilib/lib32-libxcomposite 0.4.4-2
+multilib/lib32-libxcursor 1.1.14-1
+multilib/lib32-libxdamage 1.1.4-2
+multilib/lib32-libxdmcp 1.1.2-1
+multilib/lib32-libxext 1.3.3-1
+multilib/lib32-libxfixes 5.0.3-1
+multilib/lib32-libxft 2.3.2-1
+multilib/lib32-libxi 1.7.9-1
+multilib/lib32-libxinerama 1.1.3-1
+multilib/lib32-libxml2 2.9.4+16+g07418011-1
+multilib/lib32-libxrandr 1.5.1-1
+multilib/lib32-libxrender 0.9.10-1
+multilib/lib32-libxshmfence 1.2-1
+multilib/lib32-libxss 1.2.2-2
+multilib/lib32-libxtst 1.2.3-1
+multilib/lib32-libxv 1.0.11-1
+multilib/lib32-libxxf86vm 1.1.4-1
+multilib/lib32-llvm-libs 4.0.1-1
+multilib/lib32-lm_sensors 3.4.0-1
+multilib-testing/lib32-mesa 17.1.5-1
+multilib/lib32-ncurses 6.0+20170527-1
+multilib/lib32-nettle 3.3-1
+multilib/lib32-openssl 1:1.1.0.f-1
+multilib/lib32-opus 1.2.1-1
+multilib/lib32-orc 0.4.26+2+g249c709-1
+multilib/lib32-p11-kit 0.23.7-1
+multilib/lib32-pango 1.40.6+9+g92cc73c8-1
+multilib/lib32-pcre 8.40-1
+multilib/lib32-pixman 0.34.0-1
+multilib/lib32-popt 1.16-6
+multilib/lib32-readline 7.0.003-1
+multilib/lib32-speex 1.2.0-1
+multilib/lib32-speexdsp 1.2rc3-1
+multilib/lib32-sqlite 3.19.3-1
+multilib/lib32-systemd 233.75-2
+multilib/lib32-taglib 1.11.1-1
+multilib/lib32-util-linux 2.29.2-1
+multilib/lib32-v4l-utils 1.12.5-1
+multilib/lib32-wavpack 5.1.0-1
+multilib/lib32-wayland 1.13.0-1
+multilib/lib32-xz 5.2.3-1
+multilib/lib32-zlib 1.2.11-1
+extra/libabw 0.1.1-2
+extra/libaccounts-glib 1.23-2
+extra/libaccounts-qt 1.15-1
+core/libaio 0.3.110-1
+extra/libanjuta 3.22.0+1+g2bd433c-1
+extra/libao 1.2.2-1
+core/libarchive 3.3.2-1
+extra/libart-lgpl 2.3.21-3
+extra/libass 0.13.7-1
+core/libassuan 2.4.3-1
+extra/libasyncns 0.8+3+g68cd5af-1
+extra/libatasmart 0.19-3
+extra/libatomic_ops 7.4.6-1
+extra/libavc1394 0.5.4-2
+extra/libblockdev 2.10-1
+extra/libbluray 1.0.1-1
+local/libbonobo 2.32.1-4
+local/libbonoboui 2.24.5-3
+extra/libbsd 0.8.5-2
+extra/libbytesize 0.10-1
+local/libc++ 4.0.1-1
+local/libc++abi 4.0.1-1
+local/libc++experimental 4.0.1-1
+extra/libcaca 0.99.beta19-1
+extra/libcacard 2.5.3-1
+extra/libcanberra 0.30+2+gc0620e4-1
+extra/libcanberra-pulse 0.30+2+gc0620e4-1
+core/libcap 2.25-1
+extra/libcap-ng 0.7.8-1
+extra/libcddb 1.3.2-4
+extra/libcdio 0.94-2
+extra/libcdio-paranoia 10.2+0.94+1-2
+extra/libcdr 0.1.3-3
+extra/libchamplain 0.12.15-1
+extra/libcmis 0.5.1-6
+extra/libconfig 1.6-2
+extra/libcroco 0.6.12+4+g9ad7287-1
+extra/libcryptui 3.12.2+24+gd5e5bc5-1
+extra/libcue 2.1.0-1
+extra/libcups 2.2.4-2
+community/libcurl-compat 7.54.1-1
+extra/libdaemon 0.14-3
+extra/libdatrie 0.2.10-2
+extra/libdbusmenu-qt4 0.9.3+16.04.20160218-1
+extra/libdbusmenu-qt5 0.9.3+16.04.20160218-1
+extra/libdc1394 2.2.5-1
+extra/libdca 0.0.5-4
+local/libde265 1.0.2-2
+extra/libdmapsharing 2.9.37+1+ge9fe3e0-1
+extra/libdmx 1.1.3-1
+extra/libdrm 2.4.81-1
+extra/libdv 1.0.0-6
+extra/libdvbpsi 1:1.3.1-1
+extra/libdvdnav 5.0.3-1
+extra/libdvdread 5.0.4-1
+extra/libe-book 0.1.2-7
+extra/libebml 1.3.4-2
+core/libedit 20170329_3.1-1
+core/libelf 0.169-2
+extra/libepoxy 1.4.3-1
+extra/libetonyek 0.1.6-1
+community/libev 4.24-1
+extra/libevdev 1.5.7-1
+core/libevent 2.1.8-1
+extra/libexif 0.6.21-2
+extra/libexttextcat 3.4.4-1
+extra/libfbclient 2.5.7.27050-3
+community/libfdk-aac 0.1.5-1
+core/libffi 3.2.1-2
+extra/libfontenc 1.1.3-1
+extra/libgadu 1.12.2-3
+local/libgames-support 1.0.2-1
+core/libgcrypt 1.7.8-1
+extra/libgda 5.2.4-6
+extra/libgdata 0.17.8-1
+extra/libgdiplus 4.2-1
+extra/libgee 0.20.0-1
+extra/libgepub 0.4+10+g0da0ba3-1
+community/libgexiv2 0.10.6-2
+extra/libgit2 1:0.26.0-1
+extra/libgit2-glib 0.25.0-2
+extra/libglade 2.6.4-5
+extra/libglvnd 0.2.999+g4ba53457-2
+extra/libgme 0.6.1-1
+local/libgnome 2.32.1-6
+local/libgnome-data 2.32.1-6
+extra/libgnome-games-support 1.2.2-1 (gnome-extra)
+extra/libgnome-keyring 3.12.0-2
+extra/libgnomecanvas 2.30.3-3
+local/libgnomeui 2.24.5-2
+core/libgpg-error 1.27-1
+extra/libgphoto2 2.5.14+6+g695b55887-1
+extra/libgrss 0.7.0+16+g971c421-1
+extra/libgsf 1.14.41+3+gc7b4b53-1
+extra/libgtop 2.36.0+2+ge0f97e7d-1
+extra/libgudev 231+1+g0841288-1
+extra/libgusb 0.2.10-1
+extra/libgweather 3.24.1+1+g9b08eea-1
+extra/libgxps 0.2.5+1+g764ae1e-1
+extra/libical 2.0.0-2
+extra/libice 1.0.9-1
+extra/libid3tag 0.15.1b-8
+extra/libidl2 0.8.14-4
+core/libidn 1.33-1
+extra/libiec61883 1.2.0-4
+extra/libieee1284 0.2.11-5
+extra/libimobiledevice 1.2.0-6
+extra/libinput 1.8.0-2
+community/libiptcdata 1.0.4-3
+extra/libixion 0.12.2-2
+extra/libjpeg-turbo 1.5.2-1
+extra/libkate 0.4.1-5
+extra/libkdcraw 17.04.3-1
+community/libkeybinder2 0.3.1-1
+extra/libkeybinder3 0.3.2-1
+extra/libkipi 17.04.3-1
+testing/libksba 1.3.4-2
+extra/liblangtag 0.6.2-1
+core/libldap 2.4.44-5
+extra/liblouis 3.0.0-2
+extra/liblqr 0.4.2-1
+extra/libmad 0.15.1b-7
+extra/libmatroska 1.4.7-1
+extra/libmediaart 1.9.1-1
+extra/libmm-glib 1.6.8-1
+extra/libmms 0.6.4-1
+extra/libmng 2.0.3-1
+core/libmnl 1.0.4-1
+extra/libmodplug 0.8.9.0-1
+extra/libmp4v2 2.0.0-4
+core/libmpc 1.0.3-2
+extra/libmpcdec 1:0.1+r475-1
+extra/libmpeg2 0.5.1-5
+extra/libmspub 0.1.2-7
+extra/libmwaw 0.3.11-1
+extra/libnautilus-extension 3.24.2-1
+extra/libndp 1.6-1
+community/libnewt 0.52.20-1
+core/libnftnl 1.0.7-1
+core/libnghttp2 1.23.1-1
+extra/libnice 0.1.14-1
+core/libnl 3.3.0-1
+extra/libnm 1.8.2-1
+extra/libnm-glib 1.8.2-1
+extra/libnotify 0.7.7-1
+extra/liboauth 1.0.3+9+g11e9461-2
+extra/libodfgen 0.1.6-1
+extra/libofa 0.9.3-7
+extra/libogg 1.3.2-1
+extra/libomxil-bellagio 0.9.3-1
+extra/liborcus 0.12.1-2
+community/libosinfo 1.0.0-1
+extra/libpagemaker 0.0.3-1
+extra/libpaper 1.1.24-10
+core/libpcap 1.8.1-2
+extra/libpciaccess 0.13.5-1
+extra/libpeas 1.20.0-2
+community/libpgm 5.2.122-2
+extra/libphonenumber 8.5.0-1
+core/libpipeline 1.4.1-1
+extra/libplist 2.0.0-1
+extra/libpng 1.6.30-1
+extra/libproxy 0.4.15-3
+core/libpsl 0.17.0-2
+extra/libpst 0.6.70-2
+extra/libpulse 10.0-3
+extra/libpurple 2.12.0-2
+extra/libquvi 0.9.4-4
+extra/libquvi-scripts 0.9.20131130-3
+local/libqzeitgeist 0.8.0-6
+extra/libraw 0.18.2-1
+extra/libraw1394 2.1.2-1
+testing/libreoffice-fresh 5.3.4-2
+extra/librevenge 0.0.4-1
+extra/librsvg 2:2.40.17-1
+extra/libsamplerate 0.1.9-1
+core/libsasl 2.1.26-11
+core/libseccomp 2.3.2-1
+core/libsecret 0.18.5+14+g9980655-1
+extra/libshout 1:2.4.1-3
+extra/libsidplay 1.36.59-8
+extra/libsigc++ 2.10.0-1
+extra/libsigsegv 2.11-1
+extra/libsm 1.2.2-2
+extra/libsndfile 1.0.28-1
+community/libsodium 1.0.13-1
+extra/libsoup 2.58.1-1
+extra/libsoxr 0.1.2-1
+extra/libspectre 0.2.8-1
+extra/libspeechd 0.8.7-3
+extra/libspiro 1:0.5.20150702-1
+extra/libsrtp 1:1.5.4-2
+extra/libssh 0.7.5-2
+core/libssh2 1.8.0-2
+extra/libstemmer 0+337-2
+extra/libsynctex 2017.44590-1
+core/libsystemd 234.11-1
+extra/libtar 1.2.20-3
+core/libtasn1 4.12-1
+extra/libteam 1.26-1
+extra/libthai 0.1.26-1
+extra/libtheora 1.1.1-3
+extra/libtiff 4.0.8-2
+extra/libtiger 0.3.4-4
+local/libtinfo 6-23
+core/libtirpc 1.0.2-1
+community/libtommath 1.0-2
+testing/libtool 2.4.6-8 (base-devel)
+extra/libtracker-sparql 1.12.1-1
+extra/libtxc_dxtn 1.0.1-6
+extra/libunique 1.1.6-6
+core/libunistring 0.9.7-1
+extra/libunwind 1.2.1-1
+extra/libupnp 1.6.21-2
+core/libusb 1.0.21-2
+extra/libusbmuxd 1.0.10-2
+extra/libutempter 1.1.6-2
+core/libutil-linux 2.30-2
+extra/libuv 1.13.1-1
+extra/libva 1.8.2-1
+extra/libvdpau 1.1.1-2
+extra/libvisio 0.1.5-4
+extra/libvisual 0.4.0-6
+extra/libvoikko 4.1.1-1
+extra/libvorbis 1.3.5-1
+extra/libvpx 1.6.1-1
+extra/libwacom 0.24-1
+extra/libwbclient 4.6.5-1
+extra/libwebp 0.6.0-1
+extra/libwmf 0.2.8.4-14
+extra/libwnck 2.31.0-1
+extra/libwnck3 3.24.0-1
+extra/libwpd 0.10.1-1
+extra/libwpg 0.3.1-1
+extra/libwps 0.4.6-1
+extra/libx11 1.6.5-1
+extra/libx264 2:148.20170521-1
+extra/libx264-all 2:148.20170521-1
+extra/libxau 1.0.8-2
+extra/libxaw 1.0.13-1
+extra/libxcb 1.12-1
+extra/libxcomposite 0.4.4-2
+extra/libxcursor 1.1.14-2
+extra/libxdamage 1.1.4-2
+extra/libxdmcp 1.1.2-1
+extra/libxext 1.3.3-1
+extra/libxfce4ui 4.12.1-2
+extra/libxfce4util 4.12.1-1
+extra/libxfixes 5.0.3-1
+extra/libxfont 1.5.2-1
+extra/libxfont2 2.0.1-1
+extra/libxft 2.3.2-1
+extra/libxi 1.7.9-1
+extra/libxinerama 1.1.3-2
+extra/libxkbcommon 0.7.1-1
+extra/libxkbcommon-x11 0.7.1-1
+extra/libxkbfile 1.0.9-1
+extra/libxklavier 5.4-1
+extra/libxml2 2.9.4+96+gfb56f80e-1
+extra/libxmu 1.1.2-1
+extra/libxpm 3.5.12-1
+extra/libxrandr 1.5.1-1
+extra/libxrender 0.9.10-1
+extra/libxres 1.0.7-1
+extra/libxshmfence 1.2-1
+testing/libxslt 1.1.29+42+gac341cbd-1
+extra/libxss 1.2.2-2
+extra/libxt 1.1.5-1
+extra/libxtst 1.2.3-1
+extra/libxv 1.0.11-1
+extra/libxvmc 1.0.10-1
+extra/libxxf86dga 1.1.4-1
+extra/libxxf86vm 1.1.4-1
+extra/libyaml 0.1.7-1
+extra/libytnef 1.9.2-1
+extra/libzapojit 0.0.3+11+g840627d-2
+extra/libzip 1.2.0-1
+extra/libzmf 0.0.1-2
+core/licenses 20140629-2 (base)
+extra/lightdm 1:1.22.0-1
+extra/lightdm-gtk-greeter 1:2.0.2-1
+extra/lightsoff 3.24.0+2+gdf71308-1 (gnome-extra)
+core/linux 4.12.2-1 (base)
+testing/linux-api-headers 4.10.1-1
+core/linux-firmware 20170622.7d2c913-1
+extra/llvm 4.0.1-4
+extra/llvm-libs 4.0.1-4
+extra/llvm39-libs 3.9.1-2
+extra/lm_sensors 3.4.0-2
+extra/lmdb 0.9.21-1
+core/logrotate 3.12.3-1 (base)
+extra/lpsolve 5.5.2.5-2
+community/lsb-release 1.4-14
+community/lsdvd 0.17-1
+extra/lua 5.3.4-2
+extra/lua52 5.2.4-2
+community/lua52-bitop 1.0.2-7
+community/lua52-expat 1.3.0-3
+extra/lua52-lpeg 1.0.1-1
+extra/lua52-luajson 1.3.3-2
+community/lua52-socket 20160311-1
+core/lvm2 2.02.172-2 (base)
+community/lxappearance 0.6.3-1 (lxde)
+community/lxappearance-obconf 0.2.3-1 (lxde)
+community/lxrandr 0.3.1-1 (lxde)
+core/lz4 1:1.7.5-1
+core/lzo 2.10-1
+core/m4 1.4.18-1 (base-devel)
+core/make 4.2.1-2 (base-devel)
+core/man-db 2.7.6.1-2 (base)
+core/man-pages 4.11-1 (base)
+local/masterpdfeditor 4.2.63-1
+local/mathematica 11.0.1-1
+community/mathjax 2.7.1-1
+core/mdadm 4.0-1 (base)
+extra/media-player-info 22-2
+extra/mencoder 37916-2
+local/mendeleydesktop 1.17.10-1
+community/menumaker 0.99.10-1
+extra/mesa 17.1.5-1
+extra/metis 5.1.0.p3-1
+extra/mime-types 9-1
+core/minizip 1:1.2.11-2
+extra/mirage 0.9.5.2-4
+extra/mjpegtools 2.1.0-3
+core/mkinitcpio 23-1
+core/mkinitcpio-busybox 1.26.1-1
+extra/mobile-broadband-provider-info 20170310-1
+extra/mono 5.0.0.100-2
+extra/mono-addins 1.1-1
+extra/mozilla-common 1.4-4
+core/mpfr 3.1.5.p2-1
+extra/mpg123 1.25.0-1
+extra/mtdev 1.1.5-1
+core/nano 2.8.5-1 (base)
+extra/nautilus 3.24.2-1 (gnome)
+extra/nautilus-sendto 3.8.5-1 (gnome-extra)
+testing/ncurses 6.0+20170527-1
+local/ncurses5-compat-libs 6.0+20170527-1
+local/neofetch 3.2.0-1
+extra/neon 0.30.2-2
+extra/net-snmp 5.7.3-5
+core/net-tools 1.60.20160710git-1
+community/netcdf 4.4.1.1-1
+core/netctl 1.13-2 (base)
+core/nettle 3.3-1
+extra/network-manager-applet 1.8.2-1
+extra/networkmanager 1.8.2-1 (gnome)
+extra/networkmanager-openconnect 1.2.4-2
+extra/networkmanager-qt 5.36.0-1 (kf5)
+extra/nm-connection-editor 1.8.2-1
+community/notify-sharp 0.4.1-2
+core/npth 1.5-1
+core/nspr 4.15-1
+core/nss 3.31-3
+extra/nss-mdns 0.10-6
+extra/numactl 2.0.11-1
+community/obconf 2.0.4-4
+local/obkey 1.0-4
+community/obmenu 1.0-11
+local/obmenu-generator 0.71-1
+extra/ocl-icd 2.2.11-1
+extra/openal 1.18.0-1
+community/openbox 3.6.1-3 (lxde lxde-gtk3 lxqt)
+community/openbox-themes 1.0.2-3
+extra/openconnect 1:7.08-1
+extra/opencore-amr 0.1.5-1
+extra/opencv 3.2.0-5
+extra/openexr 2.2.0-3
+extra/openjpeg 1.5.2-1
+extra/openjpeg2 2.1.2-2
+extra/openmpi 2.1.1-1
+core/openresolv 3.9.0-1
+core/openssh 7.5p1-2
+core/openssl 1.1.0.f-1
+core/openssl-1.0 1.0.2.l-1
+core/openvpn 2.4.3-2
+extra/opus 1.2.1-1
+local/orbit2 2.14.19-3
+extra/orc 0.4.27-1
+extra/orca 3.24.0+15+gc2c209c34-1 (gnome-extra)
+community/osinfo-db 20170423-1
+extra/ostree 2017.7-1
+extra/oxygen-icons 1:5.36.0-1 (kf5)
+testing/p11-kit 0.23.7-1
+local/package-query 1.8-2
+core/pacman 5.0.2-2 (base base-devel)
+core/pacman-mirrorlist 20170714-1
+core/pam 1.3.0-1
+core/pambase 20130928-1
+extra/pango 1.40.7-1
+extra/pango-perl 1.227-4
+extra/pangomm 2.40.1-2
+extra/pangox-compat 0.0.2+2+gedb9e09-2
+local/paper-gtk-theme-git 301.f75724f-1
+local/paper-icon-theme-git 596.0c3f5ae-1
+community/parcellite 1.2.1-2
+extra/parted 3.2-5
+core/patch 2.7.5-1 (base-devel)
+community/patchelf 0.9-1
+extra/pavucontrol 3.0-4
+core/pciutils 3.5.4-1 (base)
+core/pcmciautils 018-7 (base)
+core/pcre 8.41-1
+extra/pcre2 10.23-1
+community/pcsclite 1.8.22-1
+community/pdfpc 4.0.7-1
+community/pdfsam 3.3.2-1
+extra/pepper-flash 26.0.0.137-1
+core/perl 5.26.0-1 (base)
+community/perl-canary-stability 2012-2
+extra/perl-clone 0.39-2
+extra/perl-common-sense 3.74-1
+community/perl-data-dump 1.23-2
+extra/perl-dbi 1.636-3
+extra/perl-encode-locale 1.05-2
+extra/perl-error 0.17024-2
+extra/perl-extutils-depends 0.405-2
+extra/perl-extutils-pkgconfig 1.16-2
+extra/perl-file-basedir 0.07-2
+extra/perl-file-copy-recursive 0.38-2
+extra/perl-file-desktopentry 0.22-2
+extra/perl-file-listing 6.04-3
+extra/perl-file-mimeinfo 0.28-2
+community/perl-file-slurp-tiny 0.004-2
+extra/perl-file-which 1.21-2
+local/perl-gnome2-wnck 0.16-15
+local/perl-gtk2-imageview 0.05-10
+community/perl-html-form 6.03-3
+extra/perl-html-parser 3.72-3
+extra/perl-html-tagset 3.20-5
+extra/perl-http-cookies 6.03-2
+extra/perl-http-daemon 6.01-3
+extra/perl-http-date 6.02-3
+extra/perl-http-message 6.13-1
+extra/perl-http-negotiate 6.01-3
+community/perl-http-response-encoding 0.06-4
+community/perl-http-server-simple 0.51-2
+extra/perl-io-html 1.001-2
+extra/perl-ipc-system-simple 1.25-2
+community/perl-json 2.90-2
+community/perl-json-xs 3.03-2
+extra/perl-libwww 6.26-2
+local/perl-linux-desktopfiles 0.13-1
+extra/perl-locale-gettext 1.07-3
+extra/perl-lwp-mediatypes 6.02-3
+community/perl-net-dbus 1.1.0-4
+extra/perl-net-http 6.16-1
+community/perl-proc-processtable 0.53-3
+community/perl-proc-simple 1.32-2
+community/perl-sgmls 1:1.1-3
+community/perl-sort-naturally 1.03-2
+community/perl-sub-uplevel 0.2800-2
+extra/perl-test-pod 1.51-2
+community/perl-test-warn 0.32-2
+extra/perl-text-iconv 1.7-12
+community/perl-tree-dag-node 1.29-2
+extra/perl-try-tiny 0.28-2
+community/perl-types-serialiser 1.0-2
+extra/perl-uri 1.71-2
+community/perl-www-mechanize 1.84-2
+extra/perl-www-robotrules 6.02-3
+community/perl-x11-protocol 0.56-7
+extra/perl-xml-libxml 2.0129-2
+extra/perl-xml-namespacesupport 1.12-2
+extra/perl-xml-parser 2.44-4
+extra/perl-xml-sax 0.99-5
+extra/perl-xml-sax-base 1.09-2
+community/perl-xml-sax-expat 0.51-5
+extra/perl-xml-simple 2.24-2
+extra/perl-xml-twig 3.52-2
+extra/phonon-qt4 4.9.1-4
+extra/phonon-qt4-vlc 0.9.1-2
+extra/phonon-qt5 4.9.1-4
+extra/phonon-qt5-gstreamer 4.9.0-3
+extra/pidgin 2.12.0-2
+core/pinentry 1.0.0-1
+community/pinta 1.6-2
+extra/pixman 0.34.0-1
+core/pkcs11-helper 1.22-2
+core/pkg-config 0.29.2-1 (base-devel)
+community/playerctl 0.5.0-3
+extra/polari 3.24.1+2+g8c0e0fd-1 (gnome-extra)
+extra/polkit 0.113+29+g3272a98-1
+community/polkit-gnome 0.105-3
+extra/polkit-qt4 0.112.0+git20160226-1
+extra/polkit-qt5 0.112.0+git20160226-1
+local/polybar-git 3.0.5.r22.gd3b0670-1
+extra/poppler 0.56.0-1
+extra/poppler-glib 0.56.0-1
+extra/poppler-qt5 0.56.0-1
+core/popt 1.16-9
+community/portaudio 190600_20161030-1
+extra/potrace 1.14-1
+community/powertop 2.9-1
+extra/presentproto 1.1-1
+core/procps-ng 3.3.12-1 (base)
+extra/protobuf 3.3.2-1
+extra/protobuf-c 1.2.1-6
+core/psmisc 23.1-1 (base)
+extra/pulseaudio 10.0-3
+extra/pulseaudio-alsa 2-3
+extra/pulseaudio-equalizer 10.0-3
+extra/purpose 1.1-2
+extra/pygobject-devel 3.24.1-1
+extra/pygobject2-devel 2.28.6-13
+extra/pygtk 2.24.0-7
+extra/pyqt4-common 4.12.1-1
+extra/pyqt5-common 5.9-1
+extra/python 3.6.1-1
+extra/python-appdirs 1.4.3-1
+extra/python-atspi 2.24.0-1
+extra/python-beaker 1.8.1-2
+extra/python-cairo 1.13.3-1
+extra/python-chardet 3.0.4-1
+community/python-cycler 0.10.0-2
+community/python-dateutil 2.6.1-1
+extra/python-dbus 1.2.4-2
+extra/python-dbus-common 1.2.4-2
+community/python-decorator 4.0.11-1
+community/python-docopt 0.6.2-4
+local/python-ewmh 0.1.6-1
+extra/python-gobject 3.24.1-1
+extra/python-idna 2.5-1
+community/python-ipykernel 4.5.2-3
+community/python-ipywidgets 6.0.0-1
+community/python-jedi 0.10.2-1
+community/python-jinja 2.9.6-1
+community/python-jsonschema 2.6.0-1
+community/python-jupyter_client 5.1.0-1
+community/python-jupyter_core 4.3.0-1
+extra/python-mako 1.0.7-1
+extra/python-markupsafe 1.0-1
+community/python-matplotlib 2.0.2-1
+community/python-mistune 0.7.4-1
+extra/python-numpy 1.13.1-2
+community/python-olefile 0.44-1
+extra/python-packaging 16.8-2
+community/python-pandas 0.20.3-1
+local/python-path 10.1-1
+community/python-pexpect 4.2.1-2
+community/python-pickleshare 0.7.4-3
+community/python-pillow 4.2.1-1
+community/python-prompt_toolkit 1.0.14-1
+community/python-ptyprocess 0.5.2-1
+extra/python-pycups 1.9.73-3
+extra/python-pycurl 7.43.0-3
+community/python-pygments 2.2.0-1
+extra/python-pyparsing 2.2.0-1
+extra/python-pyqt4 4.12.1-1
+extra/python-pyqt5 5.9-1
+community/python-pytz 2017.2-1
+community/python-pyzmq 16.0.2-2
+extra/python-requests 2.18.1-1
+community/python-scipy 0.19.1-1
+community/python-seaborn 0.8.0-1
+community/python-setproctitle 1.1.10-2
+extra/python-setuptools 1:36.2.0-1
+extra/python-sip 4.19.3-1
+extra/python-six 1.10.0-3
+community/python-terminado 0.6-2
+community/python-tornado 4.5.1-1
+community/python-traitlets 4.3.2-1
+extra/python-urllib3 1.21.1-1
+community/python-wcwidth 0.1.7-2
+community/python-wheel 0.29.0-2
+extra/python-xdg 0.25-4
+community/python-xlib 0.19-1
+extra/python2 2.7.13-3
+extra/python2-appdirs 1.4.3-1
+extra/python2-cairo 1.13.3-1
+extra/python2-chardet 3.0.4-1
+extra/python2-dbus 1.2.4-2
+community/python2-dnspython 1.15.0-2
+community/python2-ecdsa 0.13-3
+extra/python2-gobject 3.24.1-1
+extra/python2-gobject2 2.28.6-13
+extra/python2-idna 2.5-1
+community/python2-jsonrpclib 0.1.7-1
+community/python2-olefile 0.44-1
+extra/python2-packaging 16.8-2
+local/python2-path 10.1-1
+community/python2-pbkdf2 1.3-1
+community/python2-pillow 4.2.1-1
+extra/python2-protobuf 3.3.2-1
+community/python2-pyaes 1.6.0-1
+extra/python2-pycurl 7.43.0-3
+extra/python2-pyparsing 2.2.0-1
+extra/python2-pyqt4 4.12.1-1
+community/python2-pysocks 1.6.7-1
+community/python2-qrcode 5.3-3
+extra/python2-requests 2.18.1-1
+extra/python2-setuptools 1:36.2.0-1
+extra/python2-sip 4.19.3-1
+extra/python2-six 1.10.0-3
+community/python2-slowaes 0.1a1-2
+extra/python2-urllib3 1.21.1-1
+extra/qca-qt4 2.1.3-4
+extra/qpdf 6.0.0-2
+extra/qqwing 1.3.4-3
+extra/qt4 4.8.7-22
+extra/qt5-base 5.9.1-3 (qt qt5)
+extra/qt5-declarative 5.9.1-3 (qt qt5)
+extra/qt5-location 5.9.1-2 (qt qt5)
+extra/qt5-multimedia 5.9.1-2 (qt qt5)
+extra/qt5-script 5.9.1-2 (qt qt5)
+extra/qt5-sensors 5.9.1-2 (qt qt5)
+extra/qt5-speech 5.9.1-2 (qt qt5)
+extra/qt5-svg 5.9.1-2 (qt qt5)
+extra/qt5-tools 5.9.1-4 (qt qt5)
+extra/qt5-webchannel 5.9.1-2 (qt qt5)
+extra/qt5-webengine 5.9.1-3 (qt qt5)
+extra/qt5-webkit 5.212.0alpha2-4 (qt qt5)
+extra/qt5-x11extras 5.9.1-2 (qt qt5)
+extra/qt5-xmlpatterns 5.9.1-2 (qt qt5)
+local/qtcam-git r25.75bc420-1
+extra/quadrapassel 3.22.0-1 (gnome-extra)
+extra/randrproto 1.5.0-1
+community/ranger 1.8.1-1
+extra/raptor 2.0.15-6
+extra/rasqal 1:0.9.33-1
+extra/re2 20170501-1
+core/readline 7.0.003-1
+extra/recode 3.6-9
+extra/recordproto 1.14.2-2
+extra/redland 1:1.0.17-4
+community/redshift 1.11-4
+core/reiserfsprogs 3.6.25-1 (base)
+extra/renderproto 0.11.1-3
+extra/resourceproto 1.2.0-3
+extra/rest 0.8.0-2
+core/rfkill 0.5-2
+extra/rtkit 0.11+6+g417bb7d-1
+extra/rtmpdump 1:2.4.r96.fa8646d-3
+extra/ruby 2.4.1-3
+community/ruby-hpricot 0.8.6-5
+community/ruby-mustache 1.0.3-2
+community/ruby-rdiscount 2.2.0.1-2
+community/ruby-ronn 0.7.3-5
+core/run-parts 4.8.1-1
+community/rxvt-unicode 9.22-3
+community/rxvt-unicode-terminfo 9.22-3
+extra/rygel 0.34.0-1 (gnome-extra)
+core/s-nail 14.9.0-1 (base)
+extra/sane 1.0.27-1
+extra/sbc 1.3-1
+extra/schroedinger 1.0.11-3
+extra/scrnsaverproto 1.2.2-2
+community/scrot 0.8.17-2
+extra/sdl 1.2.15-9
+extra/sdl2 2.0.5-4
+extra/sdl_image 1.2.12-4
+extra/seahorse 3.20.0+94+g4c671a78-1 (gnome-extra)
+core/sed 4.4-1 (base base-devel)
+extra/serf 1.3.9-2
+core/shadow 4.4-3 (base)
+extra/shared-color-targets 0.1.7-1
+extra/shared-mime-info 1.8-1
+extra/signon-kwallet-extension 17.08.0-1 (kde-applications kdenetwork)
+extra/signon-plugin-oauth2 0.24-1
+extra/signon-ui 0.17+20150611-1
+extra/signond 8.59-1
+extra/sip 4.19.3-1
+extra/slang 2.3.1a-1
+extra/smartmontools 6.5-1
+extra/smbclient 4.6.5-1
+extra/snappy 1.1.4-1
+extra/solid 5.36.0-1 (kf5)
+extra/sonnet 5.36.0-1 (kf5)
+extra/sound-theme-freedesktop 0.8-2
+extra/soundtouch 1.9.2-1
+extra/source-highlight 3.1.8-12
+extra/spandsp 0.0.6-1
+extra/spectacle 17.08.0-1 (kde-applications kdegraphics)
+extra/speech-dispatcher 0.8.7-3
+extra/speex 1.2.0-1
+extra/speexdsp 1.2rc3-2
+community/spice-glib 0.33-4
+community/spice-gtk3 0.33-7
+local/spotify 1.0.57.474-1
+core/sqlite 3.19.3-1
+community/stalonetray 0.8.3-1
+extra/startup-notification 0.12-5
+multilib/steam 1.0.0.54-1
+local/steam-fonts 1.0.0-3
+extra/subversion 1.9.6-1
+core/sudo 1.8.20.p2-1 (base-devel)
+extra/suitesparse 4.5.4-1
+extra/swell-foop 3.22.2-1 (gnome-extra)
+core/sysfsutils 2.1.0-9 (base)
+community/sysprof 3.24.0-1
+extra/system-config-printer 1.5.9-3
+core/systemd 234.11-1
+core/systemd-sysvcompat 234.11-1 (base)
+extra/t1lib 5.1.2-6
+extra/taglib 1.11.1-1
+extra/tali 3.22.0-1 (gnome-extra)
+extra/talloc 2.1.9-1
+core/tar 1.29-2 (base)
+extra/tcl 8.6.6-2
+extra/tdb 1.3.12-1
+extra/telepathy-glib 0.24.1-1
+extra/telepathy-idle 0.2.0-1 (telepathy)
+extra/telepathy-logger 0.8.2-2
+extra/telepathy-mission-control 5.16.4-2
+extra/tevent 1:0.9.31-1
+core/texinfo 6.4-1 (base base-devel)
+extra/texlive-bibtexextra 2017.44498-1 (texlive-most)
+extra/texlive-bin 2017.44590-1
+extra/texlive-core 2017.44515-1 (texlive-most)
+extra/texlive-fontsextra 2017.44510-1 (texlive-most)
+extra/texlive-formatsextra 2017.44177-2 (texlive-most)
+extra/texlive-games 2017.44131-1 (texlive-most)
+extra/texlive-humanities 2017.44501-1 (texlive-most)
+extra/texlive-latexextra 2017.44514-1 (texlive-most)
+extra/texlive-music 2017.44502-1 (texlive-most)
+extra/texlive-pictures 2017.44513-1 (texlive-most)
+extra/texlive-pstricks 2017.44511-1 (texlive-most)
+extra/texlive-publishers 2017.44485-1 (texlive-most)
+extra/texlive-science 2017.44478-1 (texlive-most)
+testing/thin-provisioning-tools 0.7.0-1
+extra/thunar 1.6.12-1 (xfce4)
+extra/thunar-volman 0.8.1-2 (xfce4)
+community/tint2 0.14.6-1
+extra/tk 8.6.6-2
+community/tlp 1.0-1
+extra/totem-plparser 3.10.7+40+g3859685-1
+community/tp_smapi 0.42-22
+extra/tracker 1.12.1-1 (gnome)
+extra/trayer 1.0-8
+extra/tslib 1.11-1
+extra/ttf-bitstream-vera 1.10-11
+extra/ttf-dejavu 2.37-1
+local/ttf-font-awesome 4.7.0-2
+extra/ttf-hack 2.020-2
+local/ttf-overpass 2.1-2
+extra/tumbler 0.2.0-1 (xfce4)
+core/tzdata 2017b-1
+extra/udisks2 2.7.1-2
+extra/unrar 1:5.5.6-2
+extra/unzip 6.0-12
+extra/upower 0.99.4+12+g402640b-1
+extra/usbmuxd 1.1.0-2
+community/usbredir 0.7-1
+core/usbutils 008-1 (base)
+core/util-linux 2.30-2 (base base-devel)
+extra/v4l-utils 1.12.5-1
+extra/vala 0.36.4-1
+testing/valgrind 3.13.0-2
+core/vi 1:070224-2 (base)
+extra/vid.stab 1.1-1
+extra/videoproto 2.3.3-1
+local/vim-base16-git 0.r73.e711e9b-1 (vim-plugins)
+extra/vim-runtime 8.0.0722-1
+extra/vinagre 3.22.0-2 (gnome-extra)
+extra/vlc 2.2.6-2
+extra/volume_key 0.3.9-3
+extra/vpnc 0.5.3.svn550-2
+extra/vte-common 0.48.3-1
+extra/vte3 0.48.3-1
+extra/vulkan-icd-loader 1.0.51.0-1
+extra/wavpack 5.1.0-1
+extra/wayland 1.13.0-1
+extra/wayland-protocols 1.9-1
+extra/webkit2gtk 2.16.5-1
+local/webkitgtk 2.4.11-6
+extra/webrtc-audio-processing 0.3-2
+extra/wget 1.19.1-2
+core/which 2.21-2 (base base-devel)
+extra/whois 5.2.16-1
+extra/wildmidi 0.4.1-1
+core/wireless_tools 30.pre9-1
+testing/wpa_supplicant 1:2.6-7
+local/wpgtk-git r248.414a289-1
+extra/x264 2:148.20170521-1
+extra/x265 2.4-1
+extra/xapian-core 1:1.4.4-1
+community/xbindkeys 1.8.6-2
+extra/xbitmaps 1.1.1-3
+extra/xcb-proto 1.12-3
+extra/xcb-util 0.4.0-1
+extra/xcb-util-cursor 0.1.3-1
+extra/xcb-util-image 0.4.0-1
+extra/xcb-util-keysyms 0.4.0-1
+extra/xcb-util-renderutil 0.3.9-1
+extra/xcb-util-wm 0.4.1-1
+community/xcb-util-xrm 1.2-2
+extra/xdg-desktop-portal 0.8-1
+extra/xdg-desktop-portal-gtk 0.7-1
+extra/xdg-utils 1.1.2-1
+community/xdotool 3.20160805.1-1
+local/xerox-workcentre-78xx 5.482.0.0-1
+extra/xextproto 7.3.0-1
+extra/xf86-input-evdev 2.10.5-1 (xorg-drivers)
+extra/xf86-input-keyboard 1.9.0-2 (xorg-drivers)
+extra/xf86-input-libinput 0.25.1-1 (xorg-drivers)
+extra/xf86-input-mouse 1.9.2-3 (xorg-drivers)
+extra/xf86-input-synaptics 1.9.0-1 (xorg-drivers)
+extra/xf86-input-vmmouse 13.1.0-3 (xorg-drivers)
+extra/xf86-input-void 1.4.1-3 (xorg-drivers)
+extra/xf86-video-amdgpu 1.3.0-1 (xorg-drivers)
+extra/xf86-video-ati 1:7.9.0-1 (xorg-drivers)
+extra/xf86-video-dummy 0.3.8-1 (xorg-drivers)
+extra/xf86-video-fbdev 0.4.4-6 (xorg-drivers)
+extra/xf86-video-intel 1:2.99.917+777+g6babcf15-1 (xorg-drivers)
+extra/xf86-video-nouveau 1.0.15-1 (xorg-drivers)
+extra/xf86-video-openchrome 0.6.0-1 (xorg-drivers)
+extra/xf86-video-vesa 2.3.4-3 (xorg-drivers xorg)
+extra/xf86-video-vmware 13.2.1-2 (xorg-drivers)
+extra/xf86-video-voodoo 1.2.5-8 (xorg-drivers)
+extra/xf86dgaproto 2.1-3
+extra/xf86driproto 2.1.1-3
+extra/xf86vidmodeproto 2.3.1-3
+extra/xfce4-appfinder 4.12.0-4 (xfce4)
+local/xfce4-mixer 4.11.0-3 (xfce4)
+extra/xfce4-notifyd 0.3.6-1 (xfce4-goodies)
+extra/xfce4-panel 4.12.1-1 (xfce4)
+extra/xfce4-power-manager 1.6.0.41.g9daecb5-1 (xfce4)
+extra/xfce4-pulseaudio-plugin 0.2.5+30+g1c7b487-1 (xfce4-goodies)
+extra/xfce4-session 4.12.1-7 (xfce4)
+extra/xfce4-settings 4.12.1-1 (xfce4)
+extra/xfce4-terminal 0.8.6-1 (xfce4)
+local/xfce4-volumed 0.1.13-7
+extra/xfconf 4.12.1-2 (xfce4)
+extra/xfdesktop 4.12.4-1 (xfce4)
+core/xfsprogs 4.11.0-1 (base)
+extra/xfwm4 4.12.4-1 (xfce4)
+extra/xfwm4-themes 4.10.0-2 (xfce4)
+extra/xine-lib 1.2.8-3
+extra/xineramaproto 1.2.1-3
+extra/xkeyboard-config 2.21-2
+extra/xmlto 0.0.28-1
+extra/xorg-bdftopcf 1.0.5-1 (xorg xorg-apps)
+extra/xorg-docs 1.7.1-1 (xorg)
+extra/xorg-font-util 1.3.1-1 (xorg-fonts xorg)
+extra/xorg-font-utils 7.6-4
+extra/xorg-fonts-100dpi 1.0.3-3 (xorg)
+extra/xorg-fonts-75dpi 1.0.3-3 (xorg)
+extra/xorg-fonts-alias 1.0.3-1
+extra/xorg-fonts-encodings 1.0.4-4 (xorg-fonts xorg)
+extra/xorg-fonts-misc 1.0.3-5
+extra/xorg-iceauth 1.0.7-1 (xorg-apps xorg)
+extra/xorg-luit 1.1.1-2 (xorg xorg-apps)
+extra/xorg-mkfontdir 1.0.7-8 (xorg xorg-apps)
+extra/xorg-mkfontscale 1.1.2-1 (xorg-apps xorg)
+extra/xorg-server 1.19.3-2 (xorg)
+extra/xorg-server-common 1.19.3-2 (xorg)
+extra/xorg-server-devel 1.19.3-2 (xorg)
+extra/xorg-server-xdmx 1.19.3-2 (xorg)
+extra/xorg-server-xephyr 1.19.3-2 (xorg)
+extra/xorg-server-xnest 1.19.3-2 (xorg)
+extra/xorg-server-xvfb 1.19.3-2 (xorg)
+extra/xorg-server-xwayland 1.19.3-2 (xorg)
+extra/xorg-sessreg 1.1.1-1 (xorg-apps xorg)
+extra/xorg-setxkbmap 1.3.1-1 (xorg-apps xorg)
+extra/xorg-smproxy 1.0.6-1 (xorg-apps xorg)
+extra/xorg-util-macros 1.19.1-1
+extra/xorg-x11perf 1.6.0-1 (xorg-apps xorg)
+extra/xorg-xauth 1.0.10-1 (xorg-apps xorg)
+extra/xorg-xbacklight 1.2.1-1 (xorg-apps xorg)
+extra/xorg-xcmsdb 1.0.5-1 (xorg-apps xorg)
+extra/xorg-xcursorgen 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xdpyinfo 1.3.2-1 (xorg-apps xorg)
+extra/xorg-xdriinfo 1.0.5-2 (xorg-apps xorg)
+extra/xorg-xev 1.2.2-1 (xorg-apps xorg)
+extra/xorg-xgamma 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xhost 1.0.7-1 (xorg-apps xorg)
+extra/xorg-xinit 1.3.4-4
+extra/xorg-xinput 1.6.2-1 (xorg-apps xorg)
+extra/xorg-xkbcomp 1.4.0-1 (xorg-apps xorg)
+extra/xorg-xkbevd 1.1.4-1 (xorg-apps xorg)
+extra/xorg-xkbutils 1.0.4-2 (xorg-apps xorg)
+extra/xorg-xkill 1.0.4-1 (xorg-apps xorg)
+extra/xorg-xlsatoms 1.1.2-1 (xorg-apps xorg)
+extra/xorg-xlsclients 1.1.3-1 (xorg-apps xorg)
+extra/xorg-xmodmap 1.0.9-1 (xorg-apps xorg)
+extra/xorg-xpr 1.0.4-2 (xorg-apps xorg)
+extra/xorg-xprop 1.2.2-1 (xorg-apps xorg)
+extra/xorg-xrandr 1.5.0-1 (xorg-apps xorg)
+extra/xorg-xrdb 1.1.0-2 (xorg-apps xorg)
+extra/xorg-xrefresh 1.0.5-1 (xorg-apps xorg)
+extra/xorg-xset 1.2.3-1 (xorg-apps xorg)
+extra/xorg-xsetroot 1.1.1-2 (xorg-apps xorg)
+extra/xorg-xvinfo 1.1.3-1 (xorg-apps xorg)
+extra/xorg-xwd 1.0.6-1 (xorg-apps xorg)
+extra/xorg-xwininfo 1.1.3-1 (xorg-apps xorg)
+extra/xorg-xwud 1.0.4-2 (xorg-apps xorg)
+extra/xproto 7.0.31-1
+extra/xterm 330-1
+extra/xvidcore 1.3.4-1
+core/xz 5.2.3-1
+extra/yajl 2.1.0-1
+local/yaourt 1.8.1-1
+extra/yasm 1.3.0-2
+extra/yelp 3.22.0+1+gfabd8eb-1 (gnome)
+extra/yelp-tools 3.18.0+1+g193c2bd-1
+extra/yelp-xsl 3.20.1-2
+extra/zeitgeist 1.0+1+g1bcc8585-1
+extra/zenity 3.24.0-1
+community/zeromq 4.2.2-1
+extra/zip 3.0-7
+extra/zita-alsa-pcmi 0.2.0-3
+extra/zita-resampler 1.3.0-5
+core/zlib 1:1.2.11-2
+local/zoom 2.0.98253.0707-1
+extra/zsh 5.3.1-2
+community/zsh-completions 0.25.0-1
+extra/zvbi 0.2.35-1
+extra/zziplib 0.13.66-2
