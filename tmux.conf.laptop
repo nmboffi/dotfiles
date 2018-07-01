@@ -1,0 +1,47 @@
+# Allow mouse scrolling and switching between panes
+set-option -g mouse on
+set mouse-select-pane on
+
+unbind r
+
+# # Switch the prefix to Ctrl-a since Ctrl-b interferes with Vim.
+set -g prefix C-a
+unbind C-b
+
+# # Change the default input delay in order to improve Vim
+# # performance.
+set -sg escape-time 1
+
+# # Number windows and panes starting at 1 so that we can jump to
+# # them easier.
+set -g base-index 1
+set -g pane-base-index 1
+
+# # vi mode.
+set -g mode-keys vi
+set -g status-keys vi
+set-window-option -g mode-keys vi
+
+# # 256-color mode.
+set -g default-terminal "xterm"
+
+#### Scrolling ####
+#bind-key -T root PPage if-shell -F "#{alternate_on}" "send-keys PPage" "copy-mode -e; send-keys PPage"
+#bind-key -t vi-copy PPage page-up
+#bind-key -t vi-copy NPage page-down
+#bind-key -T root WheelUpPane if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; copy-mode -e; send-keys -M"
+#bind-key -T root WheelDownPane if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; send-keys -M"
+#bind-key -t vi-copy WheelUpPane halfpage-up
+#bind-key -t vi-copy WheelDownPane halfpage-down
+bind -T root WheelUpPane   if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; copy-mode -e; send-keys -M"
+bind -T root WheelDownPane if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; send-keys -M"
+bind -t vi-copy    WheelUpPane   page-up
+bind -t vi-copy    WheelDownPane page-down
+bind -t emacs-copy WheelUpPane   page-up
+bind -t emacs-copy WheelDownPane page-down
+
+# # ##############################################################
+# # Key bindings.
+# # Split windows with a more visual set of characters.
+bind | split-window -h
+bind - split-window -v
