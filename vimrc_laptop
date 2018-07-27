@@ -1,122 +1,125 @@
-""" GENERAL SETTINGS
+""""""""""""
+" Vim-Plug " 
+""""""""""""
+" set the runtime path to include Vundle and initialize
+call plug#begin('~/.vim/plugged')
+
+" Installs a bunch of colorschemes.
+Plug 'flazz/vim-colorschemes'
+
+" IDE-Like features for vim.
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+
+" File Browser
+Plug 'scrooloose/nerdtree'
+
+" Better automatic indenting
+Plug 'godlygeek/tabular'
+
+" Smart Brace Autoclose
+Plug 'Raimondi/delimitMate'
+
+" Quick and easy comment hotkeys.
+Plug 'scrooloose/nerdcommenter'
+
+" Base16 colorschemes.
+Plug 'chriskempson/base16-vim'
+
+" Access vim's undo tree.
+Plug 'sjl/gundo.vim'
+
+" Speed up folding.
+Plug 'Konfekt/fastfold'
+
+" Improved syntax highlighting for c-family of languages.
+Plug 'octol/vim-cpp-enhanced-highlight'
+
+" Start screen for vim.
+Plug 'mhinz/vim-startify'
+
+" Sensible default settings for vim.
+Plug 'tpope/vim-sensible'
+
+" Adds syntax highlighting for a number of semi-niche languages.
+Plug 'justinmk/vim-syntax-extra'
+
+" Surround things bro
+Plug 'tpope/vim-surround'
+
+" Airline
+Plug 'vim-airline/vim-airline'
+
+" New colorschemes
+Plug 'ajmwagar/vim-deus'
+Plug 'morhetz/gruvbox'
+Plug 'AlessandroYorba/Despacio'
+Plug 'godlygeek/csapprox'
+
+" All of your Plugins must be added before the following line
+call plug#end()              " required
+filetype plugin indent on    " required
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""
+" General Settings "
+""""""""""""""""""""
+" Really simple stuff.
 syntax enable
 set nocompatible        
 set backspace=2
 set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab
 set mouse=a
-" Improves loading of large files
+
+" Improves loading of large files.
 set lazyredraw
 set ttyfast
-" fix weird colormismatch between vim and iterm2
-set t_Co=256
-" Better cursor
-highlight Cursor guifg=white guibg=black
-highlight iCursor guifg=white guibg=steelblue
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:ver100-iCursor
-set guicursor+=n-v-c:blinkon0
-set guicursor+=i:blinkwait10
 
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
+" Remap the leader key.
+let mapleader="\\"
+set timeoutlen=250
 
-
-""" VUNDLE
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-" My plugins
-Plugin 'flazz/vim-colorschemes'                     " Colors
-Plugin 'Shougo/neocomplete.vim'                     " Best autocomplete I've found
-Plugin 'scrooloose/nerdtree'                        " File browser
-Plugin 'godlygeek/tabular'                          " Better automatic indenting
-Plugin 'lervag/vimtex'                              " Self-explanatory
-Plugin 'Raimondi/delimitMate'                       " Smart brace autoclose
-Plugin 'scrooloose/nerdcommenter'                   " Quick and easy comment hotkeys
-Plugin 'chriskempson/base16-vim'                    " Base16 colorschemes
-Plugin 'sjl/gundo.vim'                              " Access vim's undo tree
-Plugin 'bbchung/clighter'                           " Better C-family syntax highlighting
-Plugin 'sheerun/vim-polyglot'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-
-" clighter
-let g:clighter_autostart = 0
-
-"Colorscheme
-colorscheme base16-monokai
+" Colorscheme.
 let base16colorspace=256
 set background=dark
+set t_Co=256
+let g:despacio_Campfire = 1
+colorscheme base16-gruvbox-light-medium
 set number
 
-" Allow for transparency with i3 and compton
+" Allow for transparency with i3 and compton.
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
 
-"""vimtex
-let g:vimtex_enabled = 1
-let g:vimtex_complete_enabled = 1
-let g:vimtex_complete_close_braces = 1
+" C++ highlighting settings.
+let g:cpp_class_scope_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_concepts_highlight = 1
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""""""
+" YCM "
+"""""""
+" Basic YCM Options
+let g:ycm_global_ycm_extra_conf = '~/.config/.ycm_extra_conf.py'
 
-""" NEOCOMPLETE
-"Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
-" Disable AutoComplPop.
-let g:acp_enableAtStartup = 0
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" Use smartcase.
-let g:neocomplete#enable_smart_case = 1
-" Set minimum syntax keyword length.
-let g:neocomplete#sources#syntax#min_keyword_length = 3
-let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
+" Intelligent GoTo finder.
+nnoremap <leader>yg :YcmCompleter GoTo<CR>
 
-" Define dictionary.
-let g:neocomplete#sources#dictionary#dictionaries = {
-    \ 'default' : '',
-    \ 'vimshell' : $HOME.'/.vimshell_hist',
-    \ 'scheme' : $HOME.'/.gosh_completions'
-        \ }
+" Jumps to implementation.
+nnoremap <leader>yd :YcmCompleter GoToDefinition<CR>
 
-" Define keyword.
-if !exists('g:neocomplete#keyword_patterns')
-    let g:neocomplete#keyword_patterns = {}
-endif
-let g:neocomplete#keyword_patterns['default'] = '\h\w*'
+" Make trivial modifications to the current line to fix simple bugs.
+nnoremap <leader>yf :YcmCompleter FixIt<CR>
 
-" Plugin key-mappings.
-inoremap <expr><C-g>     neocomplete#undo_completion()
-inoremap <expr><C-l>     neocomplete#complete_common_string()
-
-" Recommended key-mappings.
-" <CR>: close popup and save indent.
-inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
-function! s:my_cr_function()
-  return (pumvisible() ? "\<C-y>" : "" ) . "\<CR>"
-  " For no inserting <CR> key.
-  "return pumvisible() ? "\<C-y>" : "\<CR>"
-endfunction
-" <TAB>: completion.
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-" <C-h>, <BS>: close popup and delete backword char.
-inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
-inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
-
-" Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-
-" Enable heavy omni completion.
-if !exists('g:neocomplete#sources#omni#input_patterns')
-  let g:neocomplete#sources#omni#input_patterns = {}
-endif
-"let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
-let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
-let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
+"""""""""""""""""
+" gVim Settings "
+"""""""""""""""""
+set guioptions-=m
+set guioptions-=T
+set guifont=Hack\ 9
+highlight Cursor guifg=white guibg=white
+highlight iCursor guifg=white guibg=gray
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+"set guicursor+=i:blinkwait1

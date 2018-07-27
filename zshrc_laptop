@@ -94,14 +94,11 @@ alias 'tmux'='tmux -2'
 alias "ls"="ls --color=auto"
 alias "grep"="grep --color=auto -n"
 alias "egrep"="egrep --color=auto -n"
-alias "open"="gnome-open"
+alias "open"="xdg-open"
 alias "monitor"="xrandr --output DP1 --auto --right-of eDP1; feh --bg-scale ~/wallpapers/curr_wallpaper.jpg"
 alias "headphones"="pactl set-sink-port 0 analog-output-headphones"
 alias "speakers"="pactl set-sink-port 0 analog-output-speaker"
-
-# Turn off the god damn sensitive ass touchpad
-synclient FingerLow=20
-synclient FingerHigh=40
+alias "help_doc"="xdg-open /usr/share/doc/manjaro/i3_help.pdf"
 
 # Base16 shell stuff
 BASE16_SHELL=$HOME/.config/base16-shell/
@@ -110,7 +107,3 @@ base16_gruvbox-dark-hard
 
 TEXLIVE=/usr/share/texmf-dist/scripts/texlive
 export PATH=/usr/share/texmf-dist/scripts/texlive/bin/x86_64-linux:/home/nick/anaconda2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
-
-# Jupyter notebook theme
-jt -t grade3 -f hack -fs 105 -altp -tfs 11 -nfs 115 -cellw 88%
-
