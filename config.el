@@ -161,3 +161,36 @@
 ;; recent files
 (recentf-mode 1)
 (setq recentf-max-saved-items 50)
+
+;; org superagenda
+(use-package! org-super-agenda
+  :after org-agenda
+  :config
+  (org-super-agenda-mode)
+
+  (setq org-super-agenda-groups
+        '((:name "Urgent!"
+           :file-path "urgent\\.org")
+          (:name "Research"
+           :file-path "vicsek\\.org"
+           :file-path "interpolants\\.org"
+           :file-path "mips\\.org"
+           :file-path "generative_modeling_structure\\.org")
+          (:name "Communication"
+           :file-path "emails\\.org"
+           :file-path "slacks\\.org")
+          (:name "Teaching"
+           :file-path "teaching\\.org")
+          (:name "Personal"
+           :file-path "personal\\.org"
+           :file-path "chores\\.org"
+           :file-path "pkm\\.org")
+          (:name "Financial"
+           :file-path "investing\\.org"
+           :file-path "budget\\.org")
+          (:name "System"
+           :file-path "emacs\\.org")
+          (:auto-category t))))
+;; Optional: Make the agenda view more compact
+(setq org-super-agenda-header-map nil)  ;; Disable special keybindings
+(setq org-super-agenda-header-prefix "⚡ ")  ;; Custom prefix for group names
